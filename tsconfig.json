@@ -1,0 +1,10 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "../dist/frontend",
+    "rootDir": "./src",
+    "jsx": "react-jsx" // Habilitar JSX para React
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
